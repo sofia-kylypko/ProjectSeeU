@@ -16,37 +16,41 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark" >
-            <a class="navbar-brand" href="#">SeeU</a>
+            <a class="navbar-brand " href="#">SeeU</a>
             <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mr-4">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#pronas">Про проект</a>
+                        <a class="nav-link " data-value="aboutus" href="#" >Про проект</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#arts">Мистецтво</a>
+                        <a class="nav-link" data-value="arts" href="#">Мистецтво</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#arch">Архітектура</a>
+                        <a class="nav-link" data-value="arch" href="#">Архітектура</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#news">Детальна інформація</a>
+                        <a class="nav-link" data-value="aboutprog" href="#">Детальна інформація</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" data-value="team" href="#">Команда</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " data-value="review" href="#" >Відгук</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
 
-        <header class="header img-fluid">
+        <header class="header img-fluid ">
             <div class="overlay"></div>
             <div class="container">
                 <div class="description">
@@ -56,8 +60,8 @@
                 </div>
             </div>
         </header>
-        <span id="pronas"></span>
-        <div class="container about-container" >
+        
+        <div class="container about-container main_us" id="aboutus">
             <div class="row" >
                 <div class="col-12"><h1 class="head text-center">Про проект</h1></div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 vw_logo" >
@@ -123,43 +127,30 @@
             </div>
         </div>
 
-        <div id="arch">
+        <div class="arch" id="arch">
             <h3 class="text-center head" style="padding-top: -5px;">
                 Пам'ятки архітектури в базі
             </h3>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sn-12 col-md-4 col-lg-4" style="margin-bottom: 10px;">
-                        <a href="https://uk.wikipedia.org/wiki/%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D0%B0_%D0%BD%D1%96%D1%87"><img class="img-fluid lids" width="100%" src="star.jpeg" ></a>
+                        <a href="http://travelreal.ru/africa/egipet/sharm-el-shejx-staryj-gorod"><img class="img-fluid lids" width="100%" src="57095d1cff9367145405b124-5cc1745aa0d8a-1ec2t2q-lbcvr.jpeg" ></a>
+                        <br><br>
+                        <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D1%82%D0%B0-%D0%9C%D0%B0%D1%80%D1%96%D1%8F-%D0%B4%D0%B5%D0%BB%D1%8C-%D0%A4%D0%B9%D0%BE%D1%80%D0%B5"><img class="img-fluid lids" width="100%" src="florentsiia-italiia-vecher-panorama-sobor-santa-mariia-del-f.jpeg" ></a>
                     </div>
 
                     <div class="col-12 col-sn-12 col-md-4 col-lg-4" style="margin-bottom: 10px;">
-                        <br><br>
-                        <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B8%D0%BD_%D1%81%D0%B0%D0%B4"><img class="img-fluid lids" width="100%" src="garden.jpeg" ></a>
+                        <br>
+                        <a href="https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%B7%D0%BB%D1%83%D0%B4%D0%B6%D0%B0"><img class="img-fluid lids" width="100%" src="buzluzdha2.jpg" ></a>
                     </div>
 
                     <div class="col-12 col-sn-12 col-md-4 col-lg-4 " style="margin-bottom: 10px;">
-                        <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%86%D0%B5%D0%BB%D1%83%D0%B9_(%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0_%D0%9A%D0%BB%D0%B8%D0%BC%D1%82%D0%B0)"><img class="img-fluid lids" width="100%" src="kiss.jpeg" ></a>
-                    </div>
-                </div>
- 
-                <br>
-
-                <div class="row" >
-                    <div class="col-12 col-sn-12 col-md-4 col-lg-4 " style="margin-bottom: 50px;">
-                        <a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B0_%D0%9B%D1%96%D0%B7%D0%B0"><img class="img-fluid lids" width="100%" src="lisa.jpeg" ></a>
-                    </div>
-
-                    <div class="col-12 col-sn-12 col-md-4 col-lg-4 " style="margin-bottom: 50px;" >
+                        <a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D0%B5%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D1%96%D0%BC%D0%B5%D0%BD%D1%96_%D0%AE%D1%80%D1%96%D1%8F_%D0%A4%D0%B5%D0%B4%D1%8C%D0%BA%D0%BE%D0%B2%D0%B8%D1%87%D0%B0"><img class="img-fluid lids" width="100%" src="residence-of-bukovynian.jpeg " ></a>
                         <br><br>
-                        <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B0_%D1%81_%D0%BF%D0%B5%D1%80%D1%81%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8"><img class="img-fluid lids" width="100%" src="girl.jpeg" ></a>
-                    </div>
-
-                    <div class="col-12 col-sn-12 col-md-4 col-lg-4 " style="margin-bottom: 50px;">
-                        <a  href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D1%82%D1%96%D0%B9%D0%BD%D1%96%D1%81%D1%82%D1%8C_%D0%BF%D0%B0%D0%BC%27%D1%8F%D1%82%D1%96#:~:text=%C2%AB%D0%9F%D0%BE%D1%81%D1%82%D1%96%CC%81%D0%B9%D0%BD%D1%96%D1%81%D1%82%D1%8C%20%D0%BF%D0%B0%CC%81%D0%BC'%D1%8F%D1%82%D1%96%C2%BB%20(,%D0%BE%D0%B4%D0%BD%D1%96%D1%94%D1%8E%20%D0%B7%20%D0%BD%D0%B0%D0%B9%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D1%96%D1%88%D0%B8%D1%85%20%D1%80%D0%BE%D0%B1%D1%96%D1%82%20%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%B0.&text=%D0%9C%D0%B0%D0%B1%D1%83%D1%82%D1%8C%2C%20%D0%BE%D0%B4%D0%BD%D1%96%D1%94%D1%8E%20%D0%B7%20%D0%BD%D0%B0%D0%B9%D0%BE%D1%80%D0%B8%D0%B3%D1%96%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%88%D0%B8%D1%85%20%D0%B2%D0%B5%D1%80%D1%81%D1%96%D0%B9,%D0%BC'%D1%8F%D0%BA%D0%B8%D1%85%20%D1%96%20%D0%B1%D0%B5%D0%B7%D1%84%D0%BE%D1%80%D0%BC%D0%BD%D0%B8%D1%85%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%96%D0%B2."><img class="img-fluid lids" width="100%" src="time.jpeg" ></a>
+                        <a  href="https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D1%81%D1%82_%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B0_%D0%91%D1%80%D0%B0%D0%BC%D0%B0"><img class="img-fluid lids" width="100%" style="position: center;" src="7d0444ead41445b6a51b1630b8a97ed5.jpeg" ></a>
                     </div>
                 </div>
-
+                <br>
                 <div class="row">
                     <div class="col-12 col-sn-12 col-md-4 col-lg-4" style="margin-bottom: 10px;"></div>
 
@@ -169,34 +160,39 @@
                         <span style="color: #4169E1;">*Натисніть для детальної інформаціі</span>
                     </div>
                 </div>
-                <br><br>
+                <br>
             </div>
         </div>
 
         <div class="news" style="background-color:#4169E1!important;               
-               color: white;margin : 1.5em 0;  " id="news">
-             <h3 class="text-center" style="padding-top: 25px;">Сapabilities</h3>
+               color: white;margin : 1.5em 0;" id="aboutprog">
+             <h3 class="text-center" style="padding-top: 25px;">О программі</h3>
             <div class="container">
                 <div class="row">
 
 
                     <div class="col-12 col-sm-12 col-md-4 col-lg-4" style="margin-top: 20px;">
+                        
                         <div class="card">
+                            <h2 class="text-center" style="color:#4169E1; margin-top: 10px;">Database</h2>
                             <div class="card-img">
                                 <img class="img-fluid" src="https://image.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65749.jpg">
                             </div>
                             <div class="card-body">
-                               <h4 class="card-title">Recognisation</h4>
+                               <h4 class="card-title">Database</h4>
                                <p class="card-text">
                                     <span style="font-style: italic; color: grey;">
-                                        С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой
+                                        Firebase - це хмарна база даних, яка дозволяє користувачам зберігати і отримувати збережену інформацію, а також має зручні засоби і методи взаємодії з нею.
+
+                                        Firebase зберігає текстові дані і надає зручні методи для читання, оновлення та вилучення даних. Також, Firebase може допомогти з зберіганням медіафайлів до яких з легкістю надає доступ завдяки Cloud Storage.
                                     </span>
                                     <br><br>
-                                    С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой
+                                    <span style="color: black ;">С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой</span>
+                                    
                                </p>
                                <div class="card-footer">
-                                   <a class="btn btn-info btn-block" href="#">
-                                        Read more
+                                   <a class="btn btn-info btn-block" href="https://kolmogorov.pro/what-is-firebase-chto-takoe">
+                                        Дізнатися більше
                                     </a>
                                </div> 
                             </div>
@@ -216,11 +212,11 @@
                                         С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой
                                     </span>
                                     <br><br>
-                                    С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой
+                                    <span style="color: black ;">С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой</span>
                                </p>
                                <div class="card-footer">
                                    <a class="btn btn-info btn-block" href="#">
-                                        Read more
+                                        Дізнатися більше
                                     </a>
                                </div> 
                             </div>
@@ -240,11 +236,11 @@
                                         С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой
                                     </span>
                                     <br><br>
-                                    С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой
+                                    <span style="color: black ;">С недавнего времени самый массовый поисковик  предоставляет интересную возможность “поиск по картинке” – Google search by image.  По сути это распознавание изображения или как ещё называют распознавание по картинке). В чём суть сервиса?  Предположим Вы не знаете кто это такой</span>
                                </p>
                                <div class="card-footer">
                                    <a class="btn btn-info btn-block" href="#">
-                                        Read more
+                                        Дізнатися більше
                                     </a>
                                </div> 
                             </div>
@@ -255,8 +251,78 @@
             <br><br>
         </div>
 
+        <div class="team">
+            <h1 class="text-center" id="team">Команда</h1>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 item" style="text-align: center;">
+                        <img src="https://otvet.imgsmail.ru/download/182427258_0bb1727d0ad2c4a1f38d521722da183f_800.png" class="img-fluid">
+                        <div class="des">
+                            Данг Аня
+                        <br>
+                        <span class="text-mutedtext-center">м. Харків, 1 група</span>
+                        </div>
+                    </div>
 
-            <!-- Подключаем jQuery -->
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 item" style="text-align: center;">
+                        <img src="https://otvet.imgsmail.ru/download/182427258_0bb1727d0ad2c4a1f38d521722da183f_800.png" class="img-fluid">
+                        <div class="des">
+                            Килипко Софія 
+                        <br>
+                        <span class="text-mutedtext-center">м. Харків, 1 група</span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 item" style="text-align: center;">
+                        <img src="https://otvet.imgsmail.ru/download/182427258_0bb1727d0ad2c4a1f38d521722da183f_800.png" class="img-fluid">
+                        <div class="des">
+                            Рогач Вадим 
+                        <br>
+                        <span class="text-mutedtext-center">м. Харків, 1 група</span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 item" style="text-align: center;">
+                        <img src="https://otvet.imgsmail.ru/download/182427258_0bb1727d0ad2c4a1f38d521722da183f_800.png" class="img-fluid">
+                        <div class="des">
+                            Янушев Максим
+                        <br>
+                        <span class="text-mutedtext-center">м. Харків, 1 група</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="fitback" id="review">
+            <div class="container" >
+                <div class="row">
+                    <div class=" col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h1 class="text-center">Залиште повідомлення</h1>
+                    </div>
+                    <div class=" col-12 col-sm-12 col-md-8 col-lg-8">
+                        <div class="form-group">
+                            <input class="form-control form-control-lg" type="text" name="username" placeholder="Ваше ім'я">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control form-control-lg" type="email" name="username" placeholder="Ваш email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg" placeholder="Ваше повідомлення"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-outline-light btn-block btn-lg" name="send">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+           
+        <!-- Подключаем jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <!-- Подключаем плагин Popper -->
@@ -264,6 +330,19 @@
         
         <!-- Подключаем Bootstrap JS -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.header').height($(window).height());
+
+                $(".navbar a").click(function(){
+                    $("body,html").animate({
+                        scrollTop:$("#" + $(this).data('value')).offset().top
+                    },1000)
+                })
+            });
+        </script>
 
     </body>
 </html>
