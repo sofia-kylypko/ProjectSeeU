@@ -84,7 +84,6 @@
 
 .des span{
     font-size: 0.2 em;
-
 }
 
 .fitback{
@@ -104,4 +103,8 @@
 .our_arts, .arch,.news,.team,.fitback,.main_us{
 	position: relative;
 	padding-top: 3em;
+}
+
+.round{
+    border-radius: 100px;
 }
