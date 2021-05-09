@@ -53,7 +53,6 @@
 .our_arts{
     background-color: #4169E1! important;
     color: white;
-    margin: 4em 0; 
 }
 .lid:hover{
     border: 5px solid white;
@@ -100,11 +99,15 @@
     color: crimson;
 }
 
-.our_arts, .arch,.news,.team,.fitback,.main_us{
+.our_arts, .arch,.news,.fitback,.main_us{
 	position: relative;
 	padding-top: 3em;
 }
 
 .round{
     border-radius: 100px;
+}
+
+.team{
+	position: relative;
 }
